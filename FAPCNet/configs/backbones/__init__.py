@@ -1,2 +1,2 @@
-from .DWAPCNet import DWAPCNet
-__all__ = ['DWAPCNet']
+from .DWAPCNet import FAPCNet
+__all__ = ['FAPCNet']
