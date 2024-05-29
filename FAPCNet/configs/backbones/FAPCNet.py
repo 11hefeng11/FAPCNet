@@ -96,14 +96,14 @@ class CSPStage(nn.Module):
         return x
 
 
-class DWAPCNet(nn.Module):
+class FAPCNet(nn.Module):
     def __init__(self,
                  stem_channels=32,
                  feature_channels=[64, 128, 256, 512, 1024],
                  num_features=3,
                  num_classes=9):
 
-        super(DWAPCNet, self).__init__()
+        super(FAPCNet, self).__init__()
 
         self.stem_conv = Conv(3, stem_channels, 3)
 
