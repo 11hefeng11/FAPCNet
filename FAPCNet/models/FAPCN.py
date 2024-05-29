@@ -1,5 +1,5 @@
 model_cfg = dict(
-    backbone=dict(type='DWAPCNet'),
+    backbone=dict(type='FAPCNet'),
     neck=dict(type='GlobalAveragePooling'),
     head=dict(
         type='LinearClsHead',
